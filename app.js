@@ -23,7 +23,7 @@ app.use(
 //* Using Express-session
 app.use(
   session({
-    secret: "Our little scret",
+    secret: "Our little secret",
     resave: false,
     saveUninitialized: false,
   })
@@ -34,7 +34,13 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //* Connection to the database
-mongoose.connect("mongodb://127.0.0.1:27017/userDB");
+
+
+const login = "mongodb+srv://admin-john:";
+const end = "@cluster0.jt8kr3a.mongodb.net/";
+const database = "userDB";
+const pw = process.env.MONGODB;
+mongoose.connect(login + pw + end + database, {useNewUrlParser: true, useUnifiedTopology: true});
 
 // creating schema
 const userSchema = new mongoose.Schema({
@@ -202,7 +208,14 @@ app.post("/submit", async (req,res)=>{ //< Mark function with async keyword
      //Handle error
   }
 });
+
+
 //! Server running at port 3000
-app.listen(3000, function () {
-  console.log("Server is running on the port 3000");
+let port = process.env.PORT;
+if (port == null | port == "") {
+  port = 3000;
+}
+
+app.listen(port, function(){
+  console.log("Server started on port 3000");
 });

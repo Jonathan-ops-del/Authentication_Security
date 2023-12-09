@@ -8,7 +8,7 @@ This project is built from Angela Yu's Online Web Development Course, where she 
 2) Level 2 - Encryption
    commit 699a4a6a4c0905e84accb0512b8234ce8dcc0f67
 
-2B) Add Environment Vars
+ 2B) Add Environment Vars
    commit 0579d8db31089a79873b3241109407ac59310b3c
 
 3) Level 3 - Hashing with md5

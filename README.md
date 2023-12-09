@@ -23,7 +23,7 @@ This project is built from Angela Yu's Online Web Development Course, where she 
 6) Level 6 - Google OAuth 2.0 Authentication - 
    commit e73794d994e362a3c901c4d6e33a4c1b76d7f261
 
-7) Code Base for Live Deployement to Heroku using MongoDB Atlas as the Database - 
+7) Code Base for Live Deployement to Heroku using MongoDB Atlas as the Database - final deployment changes - 
    commit 038f1079a54e5bc461fea5ada8f9e9cb469b72fb
 
 In this project, we primarily use Node.js, EJS, MongoDB, Passport.js, & passport-google-oauth20

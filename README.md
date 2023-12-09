@@ -3,9 +3,10 @@
 This project is built from Angela Yu's Online Web Development Course, where she goes over the 6 Levels of Authentication : See Below. 
 
 1) Level 1 - Username and Password Only
+   
    commit 1af2c5437694e589bdd9e13690230953d34fa03a
 
-2) Level 2 - Encryption
+3) Level 2 - Encryption
    commit 699a4a6a4c0905e84accb0512b8234ce8dcc0f67
 
  2B) Add Environment Vars

@@ -28,10 +28,10 @@ This project is built from Angela Yu's Online Web Development Course, where she 
 
 In this project, we primarily use Node.js, EJS, MongoDB, Passport.js, & passport-google-oauth20
 
-To view the various levels once you have cloned the project, enter into the terminal "git log" this will list all the commits as mentioned above. Enter into the terminal git checkout "the preferred commit number" to view the selected level.Level 6 demonstrates the use of the highest form of security and authentication , using Google Oauth & Passport.js. Please note for Level 2B & Level 6 you will need .env file to have the project started. Level 7 is the code base which i used to get my project running live on Heroku and interacting with MongoDB Atlas - the live link can be found here - https://my-secret-auth-app-e0e751b16de3.herokuapp.com/.
+To view the various levels once you have cloned the project, enter into the terminal "git log" this will list all the commits as mentioned above. Enter into the terminal git checkout "the preferred commit number" to view the selected level.Level 6 demonstrates the use of the highest form of security and authentication , using Google Oauth & Passport.js. Please note for Level 2B & Level 6 you will need .env file to have the project started. Level 7 is the code base which I used to get my project running live on Heroku and interacting with MongoDB Atlas - the live link can be found here - https://my-secret-auth-app-e0e751b16de3.herokuapp.com/.
 
 To get started:
 1) Once you have cloned the project to your preferred Code Editor , make sure to "npm install" through the various levels 1-6.
-2) In each level 1-6 run "nodemon app.js" , remember Level 2B & 6 will require .env file. For Level 6 you will need your own CLIENT_ID & CLIENT_SECRET from the google developer console.
+2) In each level 1-6 run "nodemon app.js" , remember Level 2B & 6 will require .env file. For Level 6 you will need your own credentials for the CLIENT_ID & CLIENT_SECRET from your own google developer console.
 
    

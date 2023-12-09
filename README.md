@@ -32,6 +32,6 @@ To view the various levels once you have cloned the project, enter into the term
 
 To get started:
 1) Once you have cloned the project to your preferred Code Editor , make sure to "npm install" through the various levels 1-6.
-2) In each level 1-6 run "nodemon app.js" , remember Level 2B & 6 will require .env file. For Level 6 you will need your own Client_ID & Client_SECRET from the google developer console.
+2) In each level 1-6 run "nodemon app.js" , remember Level 2B & 6 will require .env file. For Level 6 you will need your own CLIENT_ID & CLIENT_SECRET from the google developer console.
 
    
